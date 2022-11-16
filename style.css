@@ -1,0 +1,45 @@
+* {
+    /* border: solid 1px gray; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    /* font-family: "Montserrat", sans-serif; */
+    color: #A5AED5;
+    font-weight: bold;
+}
+
+/* .tasks {
+} */
+
+.nav-bar {
+    color: #404E88;
+    font-weight: bolder;
+}
+
+nav li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none; /* for a links */
+    color: #404E88;
+}
+
+a:hover {
+    color: #F3BAC3;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-bar {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 20px;
+}
+
